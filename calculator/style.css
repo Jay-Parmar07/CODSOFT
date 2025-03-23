@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Tektur", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #0a0a0a, rgb(0, 0, 0));
+}
+
+.calculator {
+    border: 2px solid #7a7f88;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: transparent;
+    box-shadow: 0px 5px 10px rgba(113, 115, 119, 0.5);
+}
+
+input {
+    width: 320px;
+    border: none;
+    padding: 24px 20px;
+    margin: 10px;
+    background: rgba(75, 173, 180, 0.897);
+    box-shadow: 0px 5px 10px black;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 11px;
+    border-radius: 15%;
+    background: transparent;
+    color: white;
+    font-size: 23px;
+    box-shadow: 2px 3px 6px rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+
+}
+
+.equalBtn {
+    background-color: orange;
+}
+
+.operator {
+    color: greenyellow;
+}
